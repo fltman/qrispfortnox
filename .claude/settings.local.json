@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "Bash(cp:*)",
+      "Bash(kill:*)",
+      "WebSearch",
+      "WebFetch(domain:www.fortnox.se)",
+      "WebFetch(domain:api.fortnox.se)",
+      "WebFetch(domain:developer.fortnox.se)",
+      "WebFetch(domain:apps.fortnox.se)",
+      "mcp__multi-ai-collab__ask_gemini",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
